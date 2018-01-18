@@ -1,0 +1,96 @@
+body{
+	color: #333333;
+	font-family: "Lucinda Sans Unicode", "Lucinda Grande", sans-serif;
+}
+header{
+	position: relative;
+}
+
+section h2{
+	border-bottom: 2px solid #333333;
+	margin-top:30px;
+}
+section p,
+section ul{
+	padding:10px 45px;
+	text-indent: 15px;
+}
+section figure{
+	background-color: #f2eded;
+	border: 1px solid #ccc;
+	text-align: center;
+	padding: 15px;
+	margin: 30px;
+}
+section figcaption{
+	font-style: italic;
+	margin-top: 10px;
+}
+#centro-distribuicao{
+	margin-right:auto;
+	margin-left:auto;
+	width:550px;
+}
+
+#familia-pelho {
+	float:right;
+	margin: 0 0 10px 10px;
+}
+.container{
+	margin: 0 auto;
+	width: 940px;
+}
+.sacola{
+	background: url(..//img/sacola.png)no-repeat top right;
+	width:140px;
+	text-align: right;
+	padding-right: 35px;
+	padding-top: 8px;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+.menu-opcoes ul li{
+	display: inline;
+	margin-left: 20px;
+}
+.menu-opcoes{
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+}
+
+											/*footer*/
+footer{
+	background-image: url(../img/fundo-rodape.png);
+	clear: both;
+	padding: 20px 0;
+}
+footer .container{
+	position: relative;
+}
+.social a{
+	height: 32px;
+	width: 32px;
+
+	display: block;
+	text-indent: -9999px;
+}
+.social a[href*="facebook.com"]{
+	background-image: url(../img/facebook.png);
+}
+.social a[href*="twitter.com"]{
+	background-image: url(../img/twitter.png);
+}
+.social a[href*="plus.google.com"]{
+	background-image: url(../img/googleplus.png);
+}
+.social{
+	position: absolute;
+	top: 12px;
+	right: 0;
+}
+.social li{
+	float: left;
+	margin-left: 25px;
+}
